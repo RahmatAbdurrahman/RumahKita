@@ -46,7 +46,7 @@ export default function AboutPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gradient-to-br from-orange-400 to-orange-600 rounded-xl flex items-center justify-center">
-                <img src="/lib/logo.png" alt="Rumah Kita Logo" />
+                <img src="../public/lib/logo.png" alt="Rumah Kita Logo" />
               </div>
               <h1 className="text-xl font-bold">
                 <span className="font-alegreya-sc">Rumah</span> <span className="font-trocchi">Kita</span>
