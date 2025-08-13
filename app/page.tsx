@@ -15,7 +15,7 @@ export default function SplashScreen() {
   useEffect(() => {
     const timer = setTimeout(() => {
       // Ganti dengan router Next.js untuk transisi yang lebih mulus
-      // window.location.href = "/onboarding" 
+      window.location.href = "/onboarding" 
       // Contoh penggunaan router akan bergantung pada versi Next.js Anda (app atau pages router)
     }, 3000)
 
