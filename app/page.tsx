@@ -18,12 +18,13 @@ export default function SplashScreen() {
 
   return (
     <div className={`min-h-screen flex items-center justify-center theme-${currentTheme} transition-all duration-1000`}>
-      <div className="text-center space-y-6">
-        <div className={`w-32 h-32 mx-auto mb-8 animate-float ${showContent ? "animate-fade-in-up" : "opacity-0"}`}>
-          <div className="w-full h-full bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center shadow-2xl">
-            <div className="text-white text-4xl font-bold">RK</div>
-          </div>
-        </div>
+      <div className={`w-32 h-32 mx-auto mb-8 animate-float ${showContent ? "animate-fade-in-up" : "opacity-0"}`}>
+  <img 
+    src="/public/logo.png" 
+    alt="Logo Perusahaan" 
+    className="w-full h-full rounded-2xl shadow-2xl object-cover" 
+  />
+</div>
 
         <div
           className={`space-y-2 ${showContent ? "animate-fade-in-up" : "opacity-0"}`}
